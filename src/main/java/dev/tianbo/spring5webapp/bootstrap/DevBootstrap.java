@@ -1,4 +1,4 @@
-package dev.tianbo.spring5webapp.model.bootstrap;
+package dev.tianbo.spring5webapp.bootstrap;
 
 import dev.tianbo.spring5webapp.model.Author;
 import dev.tianbo.spring5webapp.model.Book;
