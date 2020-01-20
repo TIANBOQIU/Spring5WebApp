@@ -34,4 +34,21 @@ init some data into our database, write a bootstrap class for our table
 
 mark as a Spring @Component and do dependency injection
 
+#### Refactor: add Publisher Entity
 
+change the string representation of Publisher into a Publisher Entity, and create the publisher repository
+
+
+#### Spring MVC
+
+MVC is a common design pattern for web applications. A separation of *Model, View, and Controller*.
+
+#### Configure Controllers (e.g. BookController.class)
+1. Annotate Class with @Controller to register the class as a Spring Bean and as a Controller
+2. Annotate routes (methods) with @RequestMapping 
+3. Create the Repository field and its constructor for the dependency injection
+4. Return the view name
+
+#### using template engine for view (Thymeleaf)
+
+> I got some error here because I didn't set an getter for Book.id
