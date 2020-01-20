@@ -52,3 +52,16 @@ MVC is a common design pattern for web applications. A separation of *Model, Vie
 #### using template engine for view (Thymeleaf)
 
 > I got some error here because I didn't set an getter for Book.id
+
+*Display A List of Authors*
+1. create class and route (Author Controller)
+2. autowire AuthorRepository by constructor
+3. bind lists of authors to model
+4. create the template view and use it
+
+> need to use the camel case firstName rather than firstname
+
+
+#### Spring Petclinic
+
+you can find different examples here, and we go through it step by step in the next project.
